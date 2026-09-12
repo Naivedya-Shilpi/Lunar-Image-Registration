@@ -1,0 +1,86 @@
+[
+    {
+        "image1_x": 332.0,
+        "image1_y": 25.0,
+        "image2_x": 285.0,
+        "image2_y": 28.0,
+        "source_x": 332.0,
+        "source_y": 25.0,
+        "target_x": 285.0,
+        "target_y": 28.0,
+        "confidence": 0.3871,
+        "is_inlier": true
+    },
+    {
+        "image1_x": 25.0,
+        "image1_y": 230.0,
+        "image2_x": 71.0,
+        "image2_y": 262.0,
+        "source_x": 25.0,
+        "source_y": 230.0,
+        "target_x": 71.0,
+        "target_y": 262.0,
+        "confidence": 0.3982,
+        "is_inlier": true
+    },
+    {
+        "image1_x": 486.0,
+        "image1_y": 281.0,
+        "image2_x": 490.28,
+        "image2_y": 207.52,
+        "source_x": 486.0,
+        "source_y": 281.0,
+        "target_x": 490.28,
+        "target_y": 207.52,
+        "confidence": 0.3914,
+        "is_inlier": true
+    },
+    {
+        "image1_x": 179.0,
+        "image1_y": 384.0,
+        "image2_x": 217.0,
+        "image2_y": 370.0,
+        "source_x": 179.0,
+        "source_y": 384.0,
+        "target_x": 217.0,
+        "target_y": 370.0,
+        "confidence": 0.4794,
+        "is_inlier": true
+    },
+    {
+        "image1_x": 76.0,
+        "image1_y": 435.0,
+        "image2_x": 140.8,
+        "image2_y": 434.69,
+        "source_x": 76.0,
+        "source_y": 435.0,
+        "target_x": 140.8,
+        "target_y": 434.69,
+        "confidence": 0.4161,
+        "is_inlier": true
+    },
+    {
+        "image1_x": 76.0,
+        "image1_y": 486.0,
+        "image2_x": 145.44,
+        "image2_y": 490.09,
+        "source_x": 76.0,
+        "source_y": 486.0,
+        "target_x": 145.44,
+        "target_y": 490.09,
+        "confidence": 0.3862,
+        "is_inlier": true
+    },
+    {
+        "image1_x": 128.0,
+        "image1_y": 486.0,
+        "image2_x": 192.0,
+        "image2_y": 480.0,
+        "source_x": 128.0,
+        "source_y": 486.0,
+        "target_x": 192.0,
+        "target_y": 480.0,
+        "confidence": 0.4342,
+        "is_inlier": true
+    }
+]
