@@ -2,7 +2,7 @@
 config.py — Application configuration using Pydantic BaseSettings.
 
 Reads from environment variables and optional .env file with type validation
-and sensible defaults for local development and Render production deployment.
+and sensible defaults for local development.
 """
 
 from pathlib import Path
@@ -28,14 +28,14 @@ class Settings(BaseSettings):
 
     # Server configuration
     HOST: str = Field(default="0.0.0.0", description="Host address to bind to")
-    PORT: int = Field(default=8000, description="Port to listen on (injected by Render via $PORT)")
+    PORT: int = Field(default=8000, description="Port to listen on")
     ENVIRONMENT: str = Field(default="production", description="Environment mode: development | production")
 
     # CORS configuration
-    # Comma-separated list of allowed origins, e.g. "https://lunar-frontend.onrender.com,http://localhost:3000"
+    # Comma-separated list of allowed origins, e.g. "http://localhost:3000,http://127.0.0.1:3000"
     ALLOWED_ORIGINS: str = Field(
         default="*",
-        description="Comma-separated allowed CORS origins (e.g. https://my-site.onrender.com,http://localhost:3000)",
+        description="Comma-separated allowed CORS origins (e.g. http://localhost:3000)",
     )
     CORS_ORIGIN: Optional[str] = Field(
         default=None,
